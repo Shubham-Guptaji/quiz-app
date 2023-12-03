@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="./assets/Alcodemy-saqU-TUk.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App</title>
+  <link rel="stylesheet" crossorigin href="./assets/index-1jVt8n9p.css">
+</head>
+
+<body class="font-serif">
+  <h1 class="bg-slate-900 py-3 text-center text-white text-3xl font-bold">
+    Quiz App
+  </h1>
+  <div class="bg-slate-900">
+    <div class="container mx-auto pb-3 flex justify-between  text-white px-3 ">
+      <div>Question <span id="questionNo"></span>/10</div>
+      <div>Score : <span id="score"></span></div>
+    </div>
+  </div>
+  <div class="container mx-auto md:flex justify-center block">
+    <div class="md:w-[80%] md:max-w-2xl " id="questionDiv">
+      <h2 id="question" class="text-xl mt-8 px-3"></h2>
+      <div class="mt-5 px-3" id="mcqDiv">
+      </div>
+      <div class="mt-8 mx-auto w-fit flex gap-3" id="buttonDiv">
+      </div>
+    </div>
+    <div class="w-auto px-3">
+      <div class="mx-auto sm:w-72 w-52 md:w-52 mt-8 md:ms-16">
+        <h2 class="text-lg mb-5 w-full">Access Question</h2>
+        <div class=" flex gap-2 flex-wrap " id="navBtn"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/main.js"></script>
+</body>
+
+</html>
