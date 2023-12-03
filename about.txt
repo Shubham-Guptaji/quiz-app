@@ -1,3 +1,4 @@
 Website hosted link is - 
     https://shubham-guptaji.github.io/quiz-app/
 Screenshots link is -
+    https://github.com/Shubham-Guptaji/quiz-app/tree/main/outputs
